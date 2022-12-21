@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,18 @@
 		20A34FE729529CB900054FEC /* BFDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A34FE629529CB900054FEC /* BFDemosTests.m */; };
 		20A34FF129529CB900054FEC /* BFDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A34FF029529CB900054FEC /* BFDemosUITests.m */; };
 		20A34FF329529CB900054FEC /* BFDemosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A34FF229529CB900054FEC /* BFDemosUITestsLaunchTests.m */; };
+		20A350042952B04700054FEC /* UIButton+AddButtonAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350022952B04700054FEC /* UIButton+AddButtonAction.m */; };
+		20A3501C2952DB0A00054FEC /* PagerSubcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350072952DB0900054FEC /* PagerSubcontroller.m */; };
+		20A3501D2952DB0A00054FEC /* PagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350092952DB0900054FEC /* PagerViewController.m */; };
+		20A3501E2952DB0A00054FEC /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3500B2952DB0900054FEC /* TYPagerController.m */; };
+		20A3501F2952DB0A00054FEC /* TYPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3500C2952DB0900054FEC /* TYPagerViewLayout.m */; };
+		20A350202952DB0A00054FEC /* TYTabPagerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3500E2952DB0900054FEC /* TYTabPagerBar.m */; };
+		20A350212952DB0A00054FEC /* TYTabPagerBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A3500F2952DB0900054FEC /* TYTabPagerBarLayout.m */; };
+		20A350222952DB0A00054FEC /* TYTabPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350122952DB0900054FEC /* TYTabPagerView.m */; };
+		20A350232952DB0A00054FEC /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350152952DB0900054FEC /* TYTabPagerController.m */; };
+		20A350242952DB0A00054FEC /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350162952DB0900054FEC /* TYTabPagerBarCell.m */; };
+		20A350252952DB0A00054FEC /* TYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A350182952DB0900054FEC /* TYPagerView.m */; };
+		D56159A9BB9C9B35D6FE2651 /* libPods-BFDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304F64A5355F761F616AF30A /* libPods-BFDemos.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +66,33 @@
 		20A34FEC29529CB900054FEC /* BFDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A34FF029529CB900054FEC /* BFDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDemosUITests.m; sourceTree = "<group>"; };
 		20A34FF229529CB900054FEC /* BFDemosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDemosUITestsLaunchTests.m; sourceTree = "<group>"; };
+		20A34FFF2952AFB400054FEC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		20A350012952B00400054FEC /* MacroConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroConst.h; sourceTree = "<group>"; };
+		20A350022952B04700054FEC /* UIButton+AddButtonAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AddButtonAction.m"; sourceTree = "<group>"; };
+		20A350032952B04700054FEC /* UIButton+AddButtonAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AddButtonAction.h"; sourceTree = "<group>"; };
+		20A350062952DB0900054FEC /* PagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerViewController.h; sourceTree = "<group>"; };
+		20A350072952DB0900054FEC /* PagerSubcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerSubcontroller.m; sourceTree = "<group>"; };
+		20A350082952DB0900054FEC /* PagerSubcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerSubcontroller.h; sourceTree = "<group>"; };
+		20A350092952DB0900054FEC /* PagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerViewController.m; sourceTree = "<group>"; };
+		20A3500B2952DB0900054FEC /* TYPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerController.m; sourceTree = "<group>"; };
+		20A3500C2952DB0900054FEC /* TYPagerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerViewLayout.m; sourceTree = "<group>"; };
+		20A3500E2952DB0900054FEC /* TYTabPagerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBar.m; sourceTree = "<group>"; };
+		20A3500F2952DB0900054FEC /* TYTabPagerBarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarLayout.m; sourceTree = "<group>"; };
+		20A350102952DB0900054FEC /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarCell.h; sourceTree = "<group>"; };
+		20A350112952DB0900054FEC /* TYTabPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerController.h; sourceTree = "<group>"; };
+		20A350122952DB0900054FEC /* TYTabPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerView.m; sourceTree = "<group>"; };
+		20A350132952DB0900054FEC /* TYTabPagerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBar.h; sourceTree = "<group>"; };
+		20A350142952DB0900054FEC /* TYTabPagerBarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarLayout.h; sourceTree = "<group>"; };
+		20A350152952DB0900054FEC /* TYTabPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerController.m; sourceTree = "<group>"; };
+		20A350162952DB0900054FEC /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarCell.m; sourceTree = "<group>"; };
+		20A350172952DB0900054FEC /* TYTabPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerView.h; sourceTree = "<group>"; };
+		20A350182952DB0900054FEC /* TYPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerView.m; sourceTree = "<group>"; };
+		20A350192952DB0A00054FEC /* TYPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerViewLayout.h; sourceTree = "<group>"; };
+		20A3501A2952DB0A00054FEC /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
+		20A3501B2952DB0A00054FEC /* TYPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerView.h; sourceTree = "<group>"; };
+		304F64A5355F761F616AF30A /* libPods-BFDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BFDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FC0CB51D42D62A339AC716 /* Pods-BFDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFDemos.release.xcconfig"; path = "Target Support Files/Pods-BFDemos/Pods-BFDemos.release.xcconfig"; sourceTree = "<group>"; };
+		B8ACEDE27BBF1E2422C505E7 /* Pods-BFDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFDemos.debug.xcconfig"; path = "Target Support Files/Pods-BFDemos/Pods-BFDemos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56159A9BB9C9B35D6FE2651 /* libPods-BFDemos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +128,8 @@
 				20A34FE529529CB900054FEC /* BFDemosTests */,
 				20A34FEF29529CB900054FEC /* BFDemosUITests */,
 				20A34FC829529CB700054FEC /* Products */,
+				3F129AE0E2FBA09D7B2FD7EB /* Pods */,
+				6152F10EC54C42C2F6D9E903 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +146,15 @@
 		20A34FC929529CB700054FEC /* BFDemos */ = {
 			isa = PBXGroup;
 			children = (
+				20A350002952AFE200054FEC /* Common */,
+				20A350052952DB0900054FEC /* TYPagerControllerDemo */,
 				20A34FCA29529CB700054FEC /* AppDelegate.h */,
 				20A34FCB29529CB700054FEC /* AppDelegate.m */,
 				20A34FCD29529CB700054FEC /* SceneDelegate.h */,
 				20A34FCE29529CB700054FEC /* SceneDelegate.m */,
 				20A34FD029529CB700054FEC /* ViewController.h */,
 				20A34FD129529CB700054FEC /* ViewController.m */,
+				20A34FFF2952AFB400054FEC /* PrefixHeader.pch */,
 				20A34FD329529CB700054FEC /* Main.storyboard */,
 				20A34FD629529CB900054FEC /* Assets.xcassets */,
 				20A34FD829529CB900054FEC /* LaunchScreen.storyboard */,
@@ -136,6 +181,76 @@
 			path = BFDemosUITests;
 			sourceTree = "<group>";
 		};
+		20A350002952AFE200054FEC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				20A350012952B00400054FEC /* MacroConst.h */,
+				20A350032952B04700054FEC /* UIButton+AddButtonAction.h */,
+				20A350022952B04700054FEC /* UIButton+AddButtonAction.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		20A350052952DB0900054FEC /* TYPagerControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20A350062952DB0900054FEC /* PagerViewController.h */,
+				20A350092952DB0900054FEC /* PagerViewController.m */,
+				20A350082952DB0900054FEC /* PagerSubcontroller.h */,
+				20A350072952DB0900054FEC /* PagerSubcontroller.m */,
+				20A3500A2952DB0900054FEC /* TYPagerController */,
+			);
+			path = TYPagerControllerDemo;
+			sourceTree = "<group>";
+		};
+		20A3500A2952DB0900054FEC /* TYPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				20A3501A2952DB0A00054FEC /* TYPagerController.h */,
+				20A3500B2952DB0900054FEC /* TYPagerController.m */,
+				20A3500D2952DB0900054FEC /* TabPager */,
+				20A3501B2952DB0A00054FEC /* TYPagerView.h */,
+				20A350182952DB0900054FEC /* TYPagerView.m */,
+				20A350192952DB0A00054FEC /* TYPagerViewLayout.h */,
+				20A3500C2952DB0900054FEC /* TYPagerViewLayout.m */,
+			);
+			path = TYPagerController;
+			sourceTree = "<group>";
+		};
+		20A3500D2952DB0900054FEC /* TabPager */ = {
+			isa = PBXGroup;
+			children = (
+				20A350132952DB0900054FEC /* TYTabPagerBar.h */,
+				20A3500E2952DB0900054FEC /* TYTabPagerBar.m */,
+				20A350142952DB0900054FEC /* TYTabPagerBarLayout.h */,
+				20A3500F2952DB0900054FEC /* TYTabPagerBarLayout.m */,
+				20A350102952DB0900054FEC /* TYTabPagerBarCell.h */,
+				20A350162952DB0900054FEC /* TYTabPagerBarCell.m */,
+				20A350112952DB0900054FEC /* TYTabPagerController.h */,
+				20A350152952DB0900054FEC /* TYTabPagerController.m */,
+				20A350172952DB0900054FEC /* TYTabPagerView.h */,
+				20A350122952DB0900054FEC /* TYTabPagerView.m */,
+			);
+			path = TabPager;
+			sourceTree = "<group>";
+		};
+		3F129AE0E2FBA09D7B2FD7EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8ACEDE27BBF1E2422C505E7 /* Pods-BFDemos.debug.xcconfig */,
+				A4FC0CB51D42D62A339AC716 /* Pods-BFDemos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6152F10EC54C42C2F6D9E903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304F64A5355F761F616AF30A /* libPods-BFDemos.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20A34FF629529CB900054FEC /* Build configuration list for PBXNativeTarget "BFDemos" */;
 			buildPhases = (
+				56E396D85F21AAB50A787620 /* [CP] Check Pods Manifest.lock */,
 				20A34FC329529CB700054FEC /* Sources */,
 				20A34FC429529CB700054FEC /* Frameworks */,
 				20A34FC529529CB700054FEC /* Resources */,
+				2319CAAA995C516FF5213FE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,7 +332,7 @@
 				};
 			};
 			buildConfigurationList = 20A34FC229529CB700054FEC /* Build configuration list for PBXProject "BFDemos" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -261,14 +378,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2319CAAA995C516FF5213FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BFDemos/Pods-BFDemos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BFDemos/Pods-BFDemos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BFDemos/Pods-BFDemos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E396D85F21AAB50A787620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BFDemos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20A34FC329529CB700054FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20A34FD229529CB700054FEC /* ViewController.m in Sources */,
+				20A350042952B04700054FEC /* UIButton+AddButtonAction.m in Sources */,
+				20A350202952DB0A00054FEC /* TYTabPagerBar.m in Sources */,
+				20A3501C2952DB0A00054FEC /* PagerSubcontroller.m in Sources */,
 				20A34FCC29529CB700054FEC /* AppDelegate.m in Sources */,
+				20A350222952DB0A00054FEC /* TYTabPagerView.m in Sources */,
+				20A350242952DB0A00054FEC /* TYTabPagerBarCell.m in Sources */,
 				20A34FDD29529CB900054FEC /* main.m in Sources */,
+				20A3501F2952DB0A00054FEC /* TYPagerViewLayout.m in Sources */,
+				20A350252952DB0A00054FEC /* TYPagerView.m in Sources */,
+				20A350232952DB0A00054FEC /* TYTabPagerController.m in Sources */,
+				20A3501D2952DB0A00054FEC /* PagerViewController.m in Sources */,
+				20A3501E2952DB0A00054FEC /* TYPagerController.m in Sources */,
+				20A350212952DB0A00054FEC /* TYTabPagerBarLayout.m in Sources */,
 				20A34FCF29529CB700054FEC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,19 +607,22 @@
 		};
 		20A34FF729529CB900054FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8ACEDE27BBF1E2422C505E7 /* Pods-BFDemos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R7273AJVNS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BFDemos/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BFDemos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,19 +637,22 @@
 		};
 		20A34FF829529CB900054FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FC0CB51D42D62A339AC716 /* Pods-BFDemos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R7273AJVNS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BFDemos/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BFDemos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -301,7 +301,7 @@
 
 - (UIImageView *)loadingImageView {
     if (!_loadingImageView) {
-        _loadingImageView = [[UIImageView alloc] initWithImage:kImg(@"installCheck_checking")];
+        _loadingImageView = [[UIImageView alloc] initWithImage:kImg(@"loadingRound")];
         [self addSubview:_loadingImageView];
         [_loadingImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerX.centerY.mas_equalTo(self.valueLabel);

@@ -32,6 +32,7 @@
 		20B966562954430800727294 /* BFGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B966552954430800727294 /* BFGaugeView.m */; };
 		20B966592954436C00727294 /* BFGaugeViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B966582954436C00727294 /* BFGaugeViewTestViewController.m */; };
 		20B9665C2954446600727294 /* UIView+UIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B9665A2954446600727294 /* UIView+UIStyle.m */; };
+		20B9666429544F4D00727294 /* loadingRound.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B9666329544F4D00727294 /* loadingRound.png */; };
 		D56159A9BB9C9B35D6FE2651 /* libPods-BFDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304F64A5355F761F616AF30A /* libPods-BFDemos.a */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +103,7 @@
 		20B966582954436C00727294 /* BFGaugeViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFGaugeViewTestViewController.m; sourceTree = "<group>"; };
 		20B9665A2954446600727294 /* UIView+UIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIStyle.m"; sourceTree = "<group>"; };
 		20B9665B2954446600727294 /* UIView+UIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIStyle.h"; sourceTree = "<group>"; };
+		20B9666329544F4D00727294 /* loadingRound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingRound.png; sourceTree = "<group>"; };
 		304F64A5355F761F616AF30A /* libPods-BFDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BFDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FC0CB51D42D62A339AC716 /* Pods-BFDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFDemos.release.xcconfig"; path = "Target Support Files/Pods-BFDemos/Pods-BFDemos.release.xcconfig"; sourceTree = "<group>"; };
 		B8ACEDE27BBF1E2422C505E7 /* Pods-BFDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BFDemos.debug.xcconfig"; path = "Target Support Files/Pods-BFDemos/Pods-BFDemos.debug.xcconfig"; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 			children = (
 				20B966542954430800727294 /* BFGaugeView.h */,
 				20B966552954430800727294 /* BFGaugeView.m */,
+				20B9666329544F4D00727294 /* loadingRound.png */,
 				20B966572954436C00727294 /* BFGaugeViewTestViewController.h */,
 				20B966582954436C00727294 /* BFGaugeViewTestViewController.m */,
 			);
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20A34FDA29529CB900054FEC /* LaunchScreen.storyboard in Resources */,
+				20B9666429544F4D00727294 /* loadingRound.png in Resources */,
 				20A34FD729529CB900054FEC /* Assets.xcassets in Resources */,
 				20A34FD529529CB700054FEC /* Main.storyboard in Resources */,
 			);

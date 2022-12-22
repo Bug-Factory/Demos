@@ -32,9 +32,11 @@
     signalGauge.titleLabel.text = @"强度";
     signalGauge.progressBarColor = UIColor.systemPurpleColor;
     
+    [signalGauge loading:YES];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         signalGauge.progress = 0.3;
+        [signalGauge loading:NO];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             signalGauge.progress = 0.8;
             signalGauge.progressBarColor = UIColor.systemGreenColor;
@@ -42,6 +44,7 @@
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 signalGauge.progress = 0.1;
                 signalGauge.progressBarColor = UIColor.systemGrayColor;
+                [signalGauge loading:YES];
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                     signalGauge.progressAnimationStyle = ProgressAnimationStyleFromOrigin;
                     signalGauge.progress = 0.1;
@@ -50,6 +53,7 @@
                         signalGauge.progress = 0.9;
                         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                             signalGauge.progress = 0.4;
+                            [signalGauge loading:NO];
                         });
                     });
                 });

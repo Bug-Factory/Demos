@@ -5,11 +5,11 @@
 //  Created by FCN2021 on 2022/10/26.
 //
 
-#import <UIKit/UIKit.h>
+#import "BFBasicViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PagerSubcontroller : UIViewController
+@interface PagerSubcontroller : BFBasicViewController
 
 @end
 

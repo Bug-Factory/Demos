@@ -1,10 +1,4 @@
-//
-//  DKGaugeView.m
-//  DKUHomeClient
-//
-//  Created by FCN2021 on 2022/12/13.
-//  Copyright © 2022 Daikin (China) Investment Co., Ltd. Technology Development Research Institute. All rights reserved.
-//
+
 
 #import "BFGaugeView.h"
 #import "UIView+UIStyle.h"

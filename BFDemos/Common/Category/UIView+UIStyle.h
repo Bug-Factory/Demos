@@ -1,10 +1,4 @@
-//
-//  UIView+UIStyle.h
-//  DKUHomeClient
-//
-//  Created by Fcny on 2021/11/5.
-//  Copyright © 2021 Daikin (China) Investment Co., Ltd. Technology Development Research Institute. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 

@@ -26,9 +26,8 @@
 
 ///使用真机屏蔽无用网络日志的调试输出
 #ifndef __OPTIMIZE__
-#define DKLogString [NSString stringWithFormat:@"%s", __func__].lastPathComponent
-#define DKLogDataString [DKCommonTools getCurrentDate]
-#define NSLog(...) printf("\n%s  第%d行  输出内容:\n\n%s\n\n",[DKLogString UTF8String],__LINE__,[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+#define BFLogString [NSString stringWithFormat:@"%s", __func__].lastPathComponent
+#define NSLog(...) printf("\n%s  第%d行  输出内容:\n\n%s\n\n",[BFLogString UTF8String],__LINE__,[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
 
 #else
 #define NSLog(...)
@@ -71,7 +70,8 @@
 /// 苹方-简 纤细体
 #define kPFFont_Thin(value) [UIFont fontWithName:@"PingFangSC-Thin" size:value]
 
-
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
 
 
 

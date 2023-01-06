@@ -1,9 +1,4 @@
-//
-//  PageViewSubviewController.m
-//  TYPagerControllerUpdateDemo
-//
-//  Created by FCN2021 on 2022/10/26.
-//
+
 
 #import "PagerSubcontroller.h"
 #import <Masonry.h>

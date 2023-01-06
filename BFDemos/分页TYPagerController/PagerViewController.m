@@ -1,9 +1,4 @@
-//
-//  PagerViewController.m
-//  TYPagerControllerUpdateDemo
-//
-//  Created by FCN2021 on 2022/11/11.
-//
+
 
 #import "PagerViewController.h"
 #import "TYTabPagerBar.h"

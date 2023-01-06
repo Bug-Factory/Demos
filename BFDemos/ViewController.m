@@ -1,13 +1,9 @@
-//
-//  ViewController.m
-//  BFDemos
-//
-//  Created by FCN2021 on 2022/12/21.
-//
+
 
 #import "ViewController.h"
 #import "PagerViewController.h"
 #import "BFGaugeViewTestViewController.h"
+#import "BFMoveableTagViewController.h"
 
 @interface ControllerModel : NSObject
 
@@ -44,6 +40,7 @@
     _controllers = @[
         [[ControllerModel alloc] initWithControllerName:NSStringFromClass(PagerViewController.class) title:@"分页TYPagerController"],
         [[ControllerModel alloc] initWithControllerName:NSStringFromClass(BFGaugeViewTestViewController.class) title:@"圆形带刻度进度条"],
+        [[ControllerModel alloc] initWithControllerName:NSStringFromClass(BFMoveableTagViewController.class) title:@"可拖动标签"],
     ];
     _tableView = [[UITableView alloc] init];
     [self.view addSubview:_tableView];

@@ -1,9 +1,4 @@
-//
-//  PrefixHeader.pch
-//  BFDemos
-//
-//  Created by FCN2021 on 2022/12/21.
-//
+
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
@@ -14,5 +9,6 @@
 #import "MacroConst.h"
 #import <Masonry.h>
 #import "UIButton+AddButtonAction.h"
+#import "UIView+FrameSet.h"
 
 #endif /* PrefixHeader_pch */

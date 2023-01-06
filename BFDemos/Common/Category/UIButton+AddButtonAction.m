@@ -1,6 +1,3 @@
-//
-//  UIButton+ButtonBlock.m
-//  DKUHomeClient
 
 
 #import "UIButton+AddButtonAction.h"

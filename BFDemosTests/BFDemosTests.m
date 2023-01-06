@@ -1,9 +1,4 @@
-//
-//  BFDemosTests.m
-//  BFDemosTests
-//
-//  Created by FCN2021 on 2022/12/21.
-//
+
 
 #import <XCTest/XCTest.h>
 
